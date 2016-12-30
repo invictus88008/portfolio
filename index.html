@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet">
+    <!-- Bootsrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--Custom Styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<!-- Page Container -->
+    <div class="container">
+  <!-- Header row -->
+    <header class="header">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <img src="img/logo.png" class="img-responsive logo">
+            </div>
+
+            <div class="col-sm-12 col-md-6 text-right text-uppercase">
+                <h1 class="header-title">Nate Hargitt</h1>
+                <h3 class="header-sub-title">Web Technologies Enthusiast</h3>
+            </div>
+        </div>
+    </header>
+    <!-- End header row -->
+    <!-- Hero Seciton -->
+    <section class="hero">
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="img/nate-hargitt.jpg" />
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Seciton -->
+    <!--Work Seciton -->
+    <div class="row">
+        <h2>Recent Work</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-4" >
+            <img class="img-responsive" data-toggle="modal" data-target="#project1" src="http://natehargitt.com/assets/images/blackjack.png " />
+            <h3>Javascrip Black Jack</h3>
+            <h4>Kill some time with some Javascrip Black Jack</h4>
+            <a href="http://natehargitt.com/bljk/index.html" target="_blank">Visit Site</a>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" data-toggle="modal" data-target="#project2" src="img/kaiarose.png" />
+            <h3>Professional Modeling Portfolio</h3>
+            <h4>Model, Actress, Animal Rights Activist. Find out About Kaia Rose Hargitt.</h4>
+            <a href="http://natehargitt.com/kaiarose/index.html" target="_blank">Visit Site</a>
+        </div>
+        <div class="col-md-4">
+            <img class="img-responsive" data-toggle="modal" data-target="#project3" src="img/mememe.png" />
+            <h3>MemeMe</h3>
+            <h4>Makeing Memes since 2015.</h4>
+            <a href="http://natehargitt.com/memegen/index.html" target="_blank">Visit Site</a>
+        </div>
+    </div>
+    <!--End Work Seciton -->
+ </div>
+<!-- End Page Container -->
+
+<!-- Modals -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Javascript Black Jack</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://natehargitt.com/assets/images/blackjack.png">
+                    Kill some time playing a killer game of blackjack.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Professional Model Portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/kaiarose.png">
+                    Model, Actress, Animal Rights Activist. Find out About Kaia Rose Hargitt.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">MemeMe</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="img/mememe.png">
+                    Making Meme's since 2015.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- end Modal -->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <!-- Bootstraps js -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
